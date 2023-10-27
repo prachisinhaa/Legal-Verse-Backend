@@ -33,4 +33,3 @@ with open('/content/output.json','w') as f:
   json.dump(get_json_from_spacy_doc(combined_doc),f,indent=4)
 
 displacy.render(combined_doc, style='ent',jupyter=True,options=options)
-
